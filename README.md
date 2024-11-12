@@ -1,10 +1,10 @@
 # ESIM Event Generator
 
-This is a complete guide on how to install ROS and the ESIM simulator to generate event data.
+This guide provides complete instructions for installing ROS and the ESIM simulator to generate event data.
 
 ## Installing ROS
 
-If you already have ROS installed on your system, you can skip this section and go directly to the ESIM installation instructions. Otherwise, follow these steps:
+If ROS is already installed on your system, you can skip this section and proceed directly to the ESIM installation instructions. Otherwise, follow these steps:
 
 1. Install Ubuntu 16.04 or a lower version, as ROS Kinetic is compatible with these Ubuntu versions.
 2. Install Python3 and pip3:
@@ -26,7 +26,7 @@ If you already have ROS installed on your system, you can skip this section and 
 
 ## Installing ESIM
 
-1. If you don't have the `catkin` tool installed, run the following commands:
+1. If you don't have the catkin build tool installed, run the following commands:
    - `sudo apt-get install ros-kinetic-catkin`
    - `sudo apt-get install cmake python-catkin-pkg python-empy python-nose python-setuptools libgtest-dev build-essential`
    - `mkdir build && cd build && cmake ../ && make && sudo make install`
