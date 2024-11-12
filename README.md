@@ -1,5 +1,3 @@
-Here is the edited and corrected README.md file:
-
 # ESIM Event Generator
 
 This is a complete guide on how to install ROS and the ESIM simulator to generate event data.
@@ -81,3 +79,11 @@ If you already have ROS installed on your system, you can skip this section and 
      ```
 
 From now on, typing `ssim` in a terminal will initialize the simulator workspace (you need to run `bash` first if you want to try this right after editing the `.bashrc` file).
+
+Reference:
+   - https://github.com/uzh-rpg/rpg_esim/wiki/Installation
+   - https://wiki.ros.org/kinetic/Installation/Ubuntu
+   - https://www.ros.org/
+   - https://github.com/uzh-rpg/rpg_esim/wiki/Installation-(ROS-Melodic)
+   - https://www.youtube.com/watch?v=m5hg07zLn4U&ab_channel=KDTechs
+   - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
